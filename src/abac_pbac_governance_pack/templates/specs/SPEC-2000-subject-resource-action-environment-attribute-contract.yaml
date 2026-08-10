@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:subject-resource-action-environment-attribute-contract",
+  "number": 2000,
+  "slug": "subject-resource-action-environment-attribute-contract",
+  "title": "Subject Resource Action Environment Attribute Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines typed attributes used in contextual authorization.",
+  "body": "## Requirements\n\n- Classify attributes as principal, resource, action, or environment data.\n- Declare type, source, freshness, sensitivity, and allowed values.\n- Reject ambiguous or untrusted attributes.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/pubs/sp/800/162/upd2/final"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "abac",
+    "pbac",
+    "attributes",
+    "context",
+    "policy"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:contextual-authorization-is-owned-by-abac-pbac-policy",
+    "adr:attribute-sources-are-authoritative-policy-inputs",
+    "adr:missing-or-stale-attributes-do-not-silently-grant-access"
+  ]
+}

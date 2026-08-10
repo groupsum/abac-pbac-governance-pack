@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:missing-or-stale-attributes-do-not-silently-grant-access",
+  "number": 1002,
+  "slug": "missing-or-stale-attributes-do-not-silently-grant-access",
+  "title": "Missing Or Stale Attributes Do Not Silently Grant Access",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Missing, invalid, conflicting, and stale attributes follow explicit denial or error policy.",
+  "body": "Missing, invalid, conflicting, and stale attributes follow explicit denial or error policy.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/pubs/sp/800/162/upd2/final"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "abac",
+    "pbac",
+    "attributes",
+    "context",
+    "policy"
+  ]
+}

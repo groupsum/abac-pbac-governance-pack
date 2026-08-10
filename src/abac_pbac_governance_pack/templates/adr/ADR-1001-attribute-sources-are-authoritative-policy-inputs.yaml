@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:attribute-sources-are-authoritative-policy-inputs",
+  "number": 1001,
+  "slug": "attribute-sources-are-authoritative-policy-inputs",
+  "title": "Attribute Sources Are Authoritative Policy Inputs",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Policy attributes have declared authorities, types, freshness, and provenance.",
+  "body": "Policy attributes have declared authorities, types, freshness, and provenance.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/pubs/sp/800/162/upd2/final"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "abac",
+    "pbac",
+    "attributes",
+    "context",
+    "policy"
+  ]
+}

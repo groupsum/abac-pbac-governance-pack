@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "adr",
+  "id": "adr:contextual-authorization-is-owned-by-abac-pbac-policy",
+  "number": 1000,
+  "slug": "contextual-authorization-is-owned-by-abac-pbac-policy",
+  "title": "Contextual Authorization Is Owned By ABAC PBAC Policy",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "ABAC and PBAC own contextual authorization expressed over governed inputs.",
+  "body": "ABAC and PBAC own contextual authorization expressed over governed inputs.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/pubs/sp/800/162/upd2/final"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "abac",
+    "pbac",
+    "attributes",
+    "context",
+    "policy"
+  ]
+}

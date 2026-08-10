@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:policy-combining-default-deny-and-error-contract",
+  "number": 2003,
+  "slug": "policy-combining-default-deny-and-error-contract",
+  "title": "Policy Combining Default Deny And Error Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines policy combining, explicit denial, default denial, and evaluation errors.",
+  "body": "## Requirements\n\n- Declare combining algorithms.\n- Ensure explicit denial overrides grants where required.\n- Do not convert missing policy or evaluation errors into allow.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/pubs/sp/800/162/upd2/final"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "abac",
+    "pbac",
+    "attributes",
+    "context",
+    "policy"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:contextual-authorization-is-owned-by-abac-pbac-policy",
+    "adr:attribute-sources-are-authoritative-policy-inputs",
+    "adr:missing-or-stale-attributes-do-not-silently-grant-access"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "kind": "spec",
+  "id": "spc:abac-pbac-rule-evaluation-contract",
+  "number": 2002,
+  "slug": "abac-pbac-rule-evaluation-contract",
+  "title": "ABAC PBAC Rule Evaluation Contract",
+  "status": "accepted",
+  "origin": "extension-pack",
+  "summary": "Defines policy rules, comparisons, obligations, and results.",
+  "body": "## Requirements\n\n- Evaluate only declared typed inputs.\n- Use deterministic rule and function semantics.\n- Return decision, determining policy, obligations, and errors.",
+  "decision_date": "2026-08-10",
+  "references": [
+    "https://csrc.nist.gov/pubs/sp/800/162/upd2/final"
+  ],
+  "supersedes": [],
+  "superseded_by": [],
+  "status_notes": [],
+  "tags": [
+    "abac",
+    "pbac",
+    "attributes",
+    "context",
+    "policy"
+  ],
+  "spec_kind": "governance",
+  "adr_ids": [
+    "adr:contextual-authorization-is-owned-by-abac-pbac-policy",
+    "adr:attribute-sources-are-authoritative-policy-inputs",
+    "adr:missing-or-stale-attributes-do-not-silently-grant-access"
+  ]
+}
